@@ -1,0 +1,136 @@
+/*global*/
+*{
+     margin:0;
+     padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+p{
+    line-height: 2;
+}
+   h2,h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img{
+        max-width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    /*utilities*/
+    .container{
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto
+    }
+    .btn{
+        display:inline-block;
+      
+        color:white;
+        text-decoration:none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size:12px;
+        padding: 10px;
+    }
+    .btn-black{
+     
+        background-color: black;
+      
+           }
+    .btn-brown{
+        background-color: brown;
+        
+    }
+/*header*/
+.main-header{
+ 
+  background-image:url(./img/banner.jpg); 
+  background-size: cover;
+  height:300px;
+  color:white;
+    text-align:center;
+
+}
+/*MOREINFORMATION BUTTON*/
+.btn-moreinfo{
+    display:inline-block;
+    background-color: brown;
+    color:white;
+    text-decoration:none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size:12px;
+    padding: 10px;
+       }
+       .navigation-bar{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       }
+    .menu a{
+        margin: right 20px;
+    }
+    .menu a:hover{
+        color: brown;
+    }
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       
+}
+.blog-container{
+   width:60%;
+   margin-right: 20px;
+}
+.courses-container{
+    width: 40%;
+}
+.main-footer{
+   
+       background-color: black;
+       color: white;
+        background-size: cover;
+  height:100px;
+  color:white;
+    text-align:center;
+}
+.blog-container{
+   width:60%;
+   margin-right: 20px;
+}
+.courses-container{
+    width: 40%;
+}
+.blog-item{
+    border-bottom:1px solid #dedede;
+    margin-bottom: 20px;
+}
+.courses-item{
+border-bottom:1px solid green;
+margin-bottom: 20px;
+}
+.about-container{
+    text-align: center;
+  
+}
+.about-flex{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+justify-content: space-evenly;
+
+}
+ .flex-container-row-evenly{
+    display: flex;
+    gap:5px
+    flex-direction: row;
+    justify-content: space-evenly;
+    
