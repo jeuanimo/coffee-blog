@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+   <style>
+body {
+    font-family: Arial;
+    height : 100vh;
+    
+}
+div {
+    max-width: 600px;
+    background-color: blue;
+    padding:10px;
+
+}
+h2{
+    text-align: center;
+}
+label{
+    display:block;
+    margin:10px 10px 5px 0;
+    color:#555555;
+}
+input, textarea, select {
+    width: 95%;
+    padding: 5px;
+    border:1px solid #222222;
+    border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Contact US</h1>
+       <label>Name:</label>
+        <input type="text" name="user_name" placeholder="Enter your name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label></label>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Type your message here"></textarea>
+        
+        <button type="submit">Send</button>
+    <div>
+<h2>Product Exercise:</h2>
+<form>
+    <div>
+        <label>Product name:</label>
+        <input type="text" name="product_name" id="product_name"
+    </div>
+    <div>
+        <label>Product Description:</label>
+        <input type="text" name="product_description" id="product_description">
+    </div>
+    <div>
+       <label>Price</label>
+        <input type="number" name="product_price" id="product_price" step="0.01">
+    </div>
+    <button type="submit">Submit</button>
+<div>   
+    <label>Message:</label>
+    <textarea></textarea>
+</div>  
+<div>
+    <label>Color:</label>
+    <select>
+    <option value="op1">Red</option>
+    <option value="op2">Green</option>
+    <option value="op3">Blue</option>
+    </select>
+    </div>
+ <div>
+    <label>Payment Method:</label>
+    <select>
+    <option value="op1">Credit Card</option>
+    <option value="op2">Debit Card</option>
+    <option value="op3">Cash    </option>
+
+    </select>
+
+    </div>   
+</div>  
+<h2>Practice</h2>
+<div>
+     <input type="text" placeholder="Add Products's Name">
+     </div>
+     <div>
+        <input type="text" placeholder="Add Description" disabled>
+     </div>
+     <div>
+        <label>Select the color of your product</label>
+        <input type="color">
+     </div>
+<div>
+    <label>Select the payment method:</label>
+    <select>
+        <option value="op1">Credit Card</option>
+        <option value="op2">Debit Card</option>
+        <option value="op3">Cash</option>
+    </select>
+</div>
+
+<button type="submit">Send</button>
+</form>
+</div>
+      </footer>
+</body>
+</html>
